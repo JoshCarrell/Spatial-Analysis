@@ -1,2 +1,2 @@
 # Spatial-Analysis
-This repository contains my spatial works in R.
+This repository contains my spatial works and data for tutorials.
