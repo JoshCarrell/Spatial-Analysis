@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<title>Florida Black Bear Other Mortality Locations, 1990-2016</title>
+<geoform>vector digital data</geoform>
+<onlink>http://myfwc.com/bear/</onlink>
+<onlink>http://atoll.floridamarine.org/KMZ_files/Wildlife - Black Bear Mortality - FL.kmz</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset contains the locations of Florida black bear (Ursus americanus floridanus) mortalities, excluding roadkill data, within the state of Florida, maintained by the Florida Fish and Wildlife Conservation Commission (FWC). In this shapefile, we used only those records maintained by the FWC from which we could obtain a geographic coordinate.</abstract>
+<purpose>To display the locations and the associated attributes of black bear mortalities, excluding road kills, in the state of Florida. The roadkill data are in a separate spatial dataset.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19900101</begdate>
+<enddate>20161231</enddate>
+</rngdates>
+</timeinfo>
+<current>Ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Annually</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-87.329446</westbc>
+<eastbc>-80.479301</eastbc>
+<northbc>30.761264</northbc>
+<southbc>25.850339</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>FWC Theme</themekt>
+<themekey>uplands</themekey>
+<themekey>GIS</themekey>
+<themekey>nuisance</themekey>
+<themekey>Ursus</themekey>
+<themekey>mortality</themekey>
+<themekey>bear</themekey>
+<themekey>wildlife</themekey>
+<themekey>census</themekey>
+<themekey>mapping</themekey>
+<themekey>biota</themekey>
+<themekey>biology</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>biota</themekey>
+</theme>
+<place>
+<placekt>FWC Place</placekt>
+<placekey>statewide</placekey>
+<placekey>Florida</placekey>
+</place>
+</keywords>
+<accconst>These data are unrestricted. Where possible, always acquire this dataset directly from FWC as other sources may have altered the original data.</accconst>
+<useconst>Users should read and fully comprehend this metadata record prior to using these data. Please acknowledge the Florida Fish and Wildlife Conservation Commission (FWC) as the data source for any products developed from these data. If any data are modified, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area may be inaccurate. Users should acquire the best available data. FWC shall not be liable for improper or incorrect use of these data.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+<cntper>GIS Librarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>Fish and Wildlife Research Institute</address>
+<address>620 S. Meridian St 5B6</address>
+<city>Tallahassee</city>
+<state>Florida</state>
+<postal>32399</postal>
+</cntaddr>
+<cntvoice>850-488-0588</cntvoice>
+<cntfax>850-410-5269</cntfax>
+<cntemail>GISRequests@MyFWC.com</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Sarah Barrett, FWC</datacred>
+<secinfo>
+<secsys>FWRI-DC</secsys>
+<sechandl>Available without restriction</sechandl>
+</secinfo>
+<native>ESRI ArcGIS 10.0.5.4400</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Quality checked visually for attribute accuracy and consistency.</attraccr>
+</attracc>
+<logic>Logically consistent. All attribute values fall within defined values</logic>
+<complete>Visually inspected for completeness to ensure all values fell within specified ranges.</complete>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>Bear Other Mortality 1990 - 2016</title>
+</citeinfo>
+</srccite>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19900101</begdate>
+<enddate>20160101</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>Bear Other Mortality 1990 - 2016</srccitea>
+<srccontr>Dataset describing Florida black bear activity in the state of Florida.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>GIS Data Manager received tabular data. Created XY event, selected all records with lat/longs and exported into shapefile. Joined dataset with detailed county shoreline to QAQC to ensure points landed in correct couny. Returned errors to bear program staff and fixed or removed as deemed appropriate.</procdesc>
+<procdate>20170401</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+<cntper>GIS Librarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>Fish and Wildlife Research Institute</address>
+<address>620 S. Meridian St 5B6</address>
+<city>Tallahassee</city>
+<state>Florida</state>
+<postal>32399</postal>
+</cntaddr>
+<cntvoice>850-488-0588</cntvoice>
+<cntfax>850-410-5269</cntfax>
+<cntemail>GISRequests@MyFWC.com</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>GIS.FWC.black_bear_mortality_point</enttypl>
+<enttypd>Florida black bear other mortality locations, 1990 - 2016</enttypd>
+<enttypds>FWC Bear Management Program</enttypds>
+</enttyp>
+<attr>
+<attrlabl>CapMethod</attrlabl>
+<attrdef>Capture methodology</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OFinAction</attrlabl>
+<attrdef>Final action taken if FinAction is OTHER</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OCapReason</attrlabl>
+<attrdef>Reason for capture if CapReason is OTHER</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>CapReason</attrlabl>
+<attrdef>Reason for capture</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>TrackNum</attrlabl>
+<attrdef>Tracking numbers</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Latitude</attrlabl>
+<attrdef>Mortality latitude in decimal degrees</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>AgeClass</attrlabl>
+<attrdef>Age classification</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Cubs</attrlabl>
+<attrdef>Number of cubs observed</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Number field</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Weight</attrlabl>
+<attrdef>Weight in pounds</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Number field</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>FinAction</attrlabl>
+<attrdef>Final action taken if bear was alive</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Tattoo2</attrlabl>
+<attrdef>Tattoo ID number 2</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>REarTag1</attrlabl>
+<attrdef>Right ear tag ID number 1</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>REarTag2</attrlabl>
+<attrdef>Right ear tag ID number 2</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Location</attrlabl>
+<attrdef>Specific location of mortality</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>ZipCode</attrlabl>
+<attrdef>Zip code in which report was placed</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OrigCap</attrlabl>
+<attrdef>First time capturing this bear</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Longitude</attrlabl>
+<attrdef>Mortality longitude in decimal degrees</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>CauseMort</attrlabl>
+<attrdef>Cause of mortality for carcass</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>City</attrlabl>
+<attrdef>City in which report was placed</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Locale</attrlabl>
+<attrdef>Community/Subdivision in which report was placed</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Region</attrlabl>
+<attrdef>FWC region where mortality took place</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>MortDate</attrlabl>
+<attrdef>Date of mortality (mm/dd/yyyy)</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Date field.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>BearID</attrlabl>
+<attrdef>Bear record unique identification number</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>BMU</attrlabl>
+<attrdef>FWC Bear Management Unit where mortality took place</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>County</attrlabl>
+<attrdef>County where mortality took place</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Form and coordinate defining the feature</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Age</attrlabl>
+<attrdef>Estimated age by tooth cross section</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Number field</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>NCapReason</attrlabl>
+<attrdef>Reason for capture if CapReason is Nuisance</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sex</attrlabl>
+<attrdef>Sex of carcass, if determined</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OCauseMort</attrlabl>
+<attrdef>Cause of mortality for carcass if CauseMort is OTHER</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Tattoo1</attrlabl>
+<attrdef>Tattoo ID number 1</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>LEarTag1</attrlabl>
+<attrdef>Left ear tag ID number 1</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>LEarTag2</attrlabl>
+<attrdef>Left ear tag ID number 2</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Free text</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SubType</attrlabl>
+<attrdef>Type of record</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Capture</edomv>
+						<edomvd>Bear was euthanized</edomvd>
+						<edomvds>FWC</edomvds>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Carcass</edomv>
+						<edomvd>Bear deceased when personnel arrived on scene</edomvd>
+						<edomvds>FWC</edomvds>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Yearlings</attrlabl>
+<attrdef>Number of yearlings observed</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Number field</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>ReportDate</attrlabl>
+<attrdef>Date of report (mm/dd/yyyy)</attrdef>
+<attrdefs>FWC</attrdefs>
+<attrdomv>
+					<udom>Date field.</udom>
+				</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+<cntper>GIS Librarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>Fish and Wildlife Research Institute</address>
+<address>620 S. Meridian St 5B6</address>
+<city>Tallahassee</city>
+<state>Florida</state>
+<postal>32399</postal>
+</cntaddr>
+<cntvoice>850-488-0588</cntvoice>
+<cntfax>850-410-5269</cntfax>
+<cntemail>GISRequests@MyFWC.com</cntemail>
+</cntinfo>
+</distrib>
+<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>SHP</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://research.myfwc.com/</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20170531</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+<cntper>GIS Librarian</cntper>
+</cntorgp>
+<cntpos>GIS Data Librarian</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>620 S. Meridian St 5B6</address>
+<address>Fish and Wildlife Research Institute</address>
+<city>Tallahassee</city>
+<state>Florida</state>
+<postal>32399</postal>
+</cntaddr>
+<cntvoice>850-488-0588</cntvoice>
+<cntfax>850-410-5269</cntfax>
+<cntemail>GISRequests@MyFWC.com</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>No restrictions on metadata</metac>
+<metuc>Metadata must be distributed with the data set.</metuc>
+<metsi>
+<metscs>FWRI-MC</metscs>
+<metshd>Metadata must be distributed with the data set.</metshd>
+</metsi>
+</metainfo>
+</metadata>

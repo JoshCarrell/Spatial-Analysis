@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<descript>
+<abstract>This data set contains landscape-scale greater sage-grouse
+conservation areas as defined by the Idaho Sage Grouse Task Force. The intended
+scale of use is 1:500,000. The data was developed through a collaborative
+process in looking at several GIS datasets. The intended scale of use is
+1:500,000. The dataset was digitzed coarsely on the screen to roughly
+match the extent of the BLM PPH and PGH line work. In August 2012, the
+names of the Southwest and Southeast Conservation Areas where changed to West
+Owyhee and Southern, respectively. Also, the boundary between these two areas
+was also changed to the Bruneau River.
+
+Fields: [CoreZones] = Mountain Valleys, Desert, Southern, or
+West Owyhee Conservation Areas.  [NorthSouth] = South of the Snake River
+or North of the Snake River.
+
+The Idaho Sage Grouse Task Force (SGTF) appointed by the
+Governor of Idaho, created an Idaho alternative in response to the BLM's,
+&amp;quot;A Framework to Identify Greater Sage-grouse Preliminary Priority Habitat
+and Preliminary General Habitat for Idaho&amp;quot; as seen at https://eplanning.blm.gov/epl-front-office/projects/lup/31652/38566/40466/Idaho_Sage-grouse_Priority_Areas_White_Paper_Final_April_26_2012_508.pdf.
+ The SGTF split the BLM's designated PPH and PGH into 4 'Conservation
+Areas', two located North of the Snake River and two South. The Conservation
+Areas are split into Managment Zones attributed with Core, Important, and
+General. This shapefile is supporting information for the content within the
+'DRAFT Federal Alternative of Governor C.L. Butch Ottter For Greater
+Sage-Grouse Management in Idaho, June 28th, 2012' at https://gov.idaho.gov/mediacenter/execorders/eo15/Appendix%201%20(govs%20alt.%20and%20supporting%20docs).pdf
+
+For more information about the SGTF visit https://idfg.idaho.gov/conservation/sage-grouse/task-force. 
+
+FULL FGDC METADATA</abstract>
+<purpose>Idaho sage grouse conservation areas.</purpose>
+</descript>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>IDFG</themekey>
+<themekey> Idaho</themekey>
+<themekey> Idaho Fish and Game</themekey>
+<themekey> sage grouse</themekey>
+<themekey> greater sage grouse</themekey>
+<themekey> conservation</themekey>
+<themekey> wildlife management</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>This dataset is intended for public-use for informational
+purposes only.
+
+ No warranty is made by the Idaho Sage Grouse Task Force. The
+accuracy, reliability, or completeness of these data for individual use or
+aggregate use with other data is not guaranteed. This data covers all of Idaho
+and a small area in Nevada that is managed by the BLM Idaho office. Intended
+scale of use is 1:500,000.
+
+ Idaho Fish and Game does not assume liability.  No
+warranty expressed or implied is made by IDFG regarding the utility of this
+data on any other system, nor shall the act of distribution constitute any such
+warranty.  The data represented in this file is true and accurate to the
+best of our knowledge but is considered a best representation only.  Users
+must assume responsibility in determining the usability of this data for their
+purposes.</useconst>
+<datacred>Idaho Fish and Game</datacred>
+</idinfo>
+<metainfo>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>

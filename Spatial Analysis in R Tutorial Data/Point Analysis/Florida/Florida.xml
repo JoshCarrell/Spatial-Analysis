@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<pubdate>20031205</pubdate>
+<title>State of Florida</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace/>
+<publish>Southwest Florida Water Management District</publish>
+</pubinfo>
+<onlink>https://www21.swfwmd.state.fl.us/metadata/FLORIDA.xml</onlink>
+<onlink>https://www25.swfwmd.state.fl.us/arcgis12/rest/services/OpenData/Boundaries/MapServer/3</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The State of Florida polygon. This service is for the Open Data Download application for the Southwest Florida Water Management District.</abstract>
+<purpose>The State of Florida polygon. This service is for the Open Data Download application for the Southwest Florida Water Management District.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20000516</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-87.633633</westbc>
+<eastbc>-79.94749</eastbc>
+<northbc>31.11766</northbc>
+<southbc>24.45194</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>State Boundary</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Florida</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>This REST service is only available from 6 A.M. to 10 P.M. daily. The data are being provided on an 'as is' basis. The District specifically disclaims any warranty, either expressed or implied, including, but not limited to, the implied warranties or merchantability and fitness for a particular use. The entire risk as to quality and performance is with the user. In no event will the District or its staff be liable for any direct, indirect, incidental, special, consequential, or other damages, including loss of profit, arising out of the use of these data even if the District has been advised of the possibility of such damages. All data are intended for resource management use and have not been collected or certified by a Florida-registered Surveyor and Mapper.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Southwest Florida Water Management District</cntorg>
+<cntper>Mapping and GIS Section</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2379 Broad Street (U.S. 41 South)</address>
+<city>Brooksville</city>
+<state>FL</state>
+<postal>34604-6899</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(352) 796-7211</cntvoice>
+<cntfax>(352) 540-6018</cntfax>
+<hours>8:00 a.m. to 5:00 p.m.</hours>
+</cntinfo>
+</ptcontac>
+<native>ESRI ArcCatalog 10.2.2</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The linework was symbolized using the COASTBND attribute and visually inspected. Accuracy has been estimated to be 100% as of May 2000.</attraccr>
+</attracc>
+<logic>The final product was checked against the source material. The Mapping and GIS section of the Southwest Florida Water Management District corrected any errors found.</logic>
+<complete>There are no significant omissions.</complete>
+<posacc>
+<horizpa>
+<horizpar>Accuracy should meet National Map Accuracy Standards for a 1:2,000,000 scale map, approximately +/- 1000 meters. In December 2003, the following Topolgy Rules were created and validated for the feature classes in the State and Water Management Districts feature dataset: Florida region must not overlap. Water Management Districts region must not overlap. Florida region must be covered by Florida boundary lines. Water Management Districts region must be covered by Water Management District boundary lines. The Cluster Tolerance was set at 0.005 meters. Any errors that were found were inspected and corrected using ArcMap 8.3.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>19970627</pubdate>
+<title>Compressed Export file of State boundary (usgs_state_boundary.e00.Z)</title>
+</citeinfo>
+</srccite>
+<srcscale>0</srcscale>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>19970627</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>Compressed Export file of State boundary (usgs_state_boundary.e00.Z)</srccitea>
+<srccontr>created by the DEP from USGS DLG data</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The UNIX compressed file was downloaded from the DEP ftp site along with the associated metadata. The file was uncompressed using the UNIX uncompress command. The export file was imported using the ArcInfo IMPORT command. The fuzzy tolerance was set to .001 and polygon topology was created using the BUILD command. The coverage was projected from ALBERS to UTM using the PROJECT command with the projection parameters listed below. The BUILD command was then used to recreate polygon and create arc topology. The ArcInfo commands ADDITEM and DROPITEM were used to modify the polygon attribute table (PAT) and arc attribute table (AAT). The following item was dropped from the PAT: MINOR1. The REGIONDISSOLVE command was used to create a region subclass called STATE. The following projection file was used: INPUT PROJECTION ALBERS UNITS METERS DATUM HPGN PARAMETERS 24 0 0.000 31 30 0.000 ?84 0 0.000 24 0 0.000 400000.00000 0.00000 OUTPUT PROJECTION UTM ZONE 17 UNITS METERS DATUM HPGN PARAMETERS END</procdesc>
+<procdate>19991101</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Southwest Florida Water Management District</cntorg>
+<cntper>Mapping and GIS Section</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2379 Broad Street (U.S. 41 South)</address>
+<city>Brooksville</city>
+<state>FL</state>
+<postal>34604-6899</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(352) 796-7211</cntvoice>
+<cntfax>(352) 540-6018</cntfax>
+<hours>8:00 a.m. to 5:00 p.m.</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>In November and December 2003, an enterprise geodatabase was designed and implemented. Coverages were converted into feature classes using ArcCatalog 8.3. The feature classes were created new in a feature dataset, with column names, shape type, grid size, and projection information defined during creation. An X/Y Domain and Precision were set at MinX: -700,000; MinY: 2,000,000; Precision: 1000. Z-Values were set at MinZ: -20; Precision: 1000. The Grid Tile Size is 2,147,483.465. Data was then loaded into the feature classes from the coverages using the 'Load Data' tool in ArcCatalog 8.3. Indexes were created for attributes when there were more than 100 records in the data set. Topology was validated whenever possible. See Positional Accuracy for topology rules used for positional validation.</procdesc>
+<procdate>20031205</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Southwest Florida Water Management District</cntorg>
+<cntper>Mapping and GIS Section</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2379 Broad Street (U.S. 41 South)</address>
+<city>Brooksville</city>
+<state>FL</state>
+<postal>34604-6899</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(352) 796-7211</cntvoice>
+<cntfax>(352) 540-6018</cntfax>
+<hours>8:00 a.m. to 5:00 p.m.</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>In October 2009, the District's enterprise SDE vector data layers were re-projected from UTM to State Plane Feet. At this same time the data layers were loaded into SDE using ESRI's Spatial Data Type. The new data type allows users to use SQL queries for spatial inquiries.</procdesc>
+<procdate>20091002</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Southwest Florida Water Management District</cntorg>
+<cntper>Mapping and GIS Section</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2379 Broad Street (U.S. 41 South)</address>
+<city>Brooksville</city>
+<state>FL</state>
+<postal>34604-6899</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(352) 796-7211</cntvoice>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<ptvctcnt>1</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>SDECREATOR.FLORIDA</enttypl>
+<enttypd>SDE Geodatabase feature class</enttypd>
+<enttypds>ESRI Geodatabase</enttypds>
+</enttyp>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+<attrdef>Length of feature in internal units.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>DATESTAMP</attrlabl>
+<attrdef>The date the feature was last edited or entered into the map libraries by SWFWMD staff.</attrdef>
+<attrdefs>User Defined</attrdefs>
+<attrdomv>
+					<udom>date</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Southwest Florida Water Management District</cntorg>
+<cntper>Mapping and GIS Section</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2379 Broad Street (U.S. 41 South)</address>
+<city>Brooksville</city>
+<state>FL</state>
+<postal>34604-6899</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(352) 796-7211</cntvoice>
+<cntfax>(352) 540-6018</cntfax>
+<hours>8:00 a.m. to 5:00 p.m.</hours>
+</cntinfo>
+</distrib>
+<resdesc>The data are being provided on an 'as is' basis. The District specifically disclaims any warranty, expressed or implied, including, but not limited to, the implied warranties or merchantability and fitness for a particular use. The entire risk as to quality and performance is with the user. In no event will the District or its staff be liable for any direct, indirect, incidental, special, consequential, or other damages, including loss of profit, arising out of the use of these data even if the District has been advised of the possibility of such damages. All data are intended for resource management use.</resdesc>
+<distliab>Translation of files to formats other than those described here is the sole responsibility of individuals downloading the data.</distliab>
+</distinfo>
+<metainfo>
+<metd>20100331</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Southwest Florida Water Management District</cntorg>
+<cntper>Mapping and GIS Section</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>2379 Broad Street (U.S. 41 South)</address>
+<city>Brooksville</city>
+<state>FL</state>
+<postal>34604-6899</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(352) 796-7211</cntvoice>
+<cntfax>(352) 540-6018</cntfax>
+<hours>8:00 a.m. to 5:00 p.m.</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
